@@ -1,0 +1,112 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+  }
+  
+  .book-card {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .book-card h2 {
+    margin-top: 0;
+  }
+  
+  .book-card p {
+    margin: 10px 0;
+  }
+  
+  .book-card button {
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+  }
+  
+  .book-card button:hover {
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+#add-book-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  #book-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  #book-form form {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  }
+  
+  #book-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #book-form input[type="text"],
+  #book-form input[type="number"],
+  #book-form input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+  }
+  
+  #book-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #book-form .hidden {
+    display: none;
+    
+  }
+  
+
+  
